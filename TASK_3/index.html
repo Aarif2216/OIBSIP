@@ -95,7 +95,7 @@
         convertedTemperature = kelvinToCelsius(temperature);
       }
 
-      resultDisplay.textContent = `${convertedTemperature.toFixed(2)} ${unit === 'celsius' ? '°C' : unit === 'fahrenheit' ? '°F' : 'K'}`;
+      resultDisplay.textContent = `${convertedTemperature.toFixed(2)} ${unit === 'celsius' ? '°F' : unit === 'fahrenheit' ? '°C' : '°C'}`;
     });
 
     function celsiusToFahrenheit(celsius) {
